@@ -58,7 +58,7 @@ function App() {
     };
     console.log("newStudent ", newStudent);
 
-    setStudents([...students, newStudent]);
+    setStudents([newStudent, ...students]);
 
     setFullName("");
     setImage("");
